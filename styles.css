@@ -1,0 +1,81 @@
+body{
+  text-align: center;
+  background: linear-gradient(#a2d2ff,#EFB0C9) ;
+  color: #ffffff;
+  font-family: "Happy Monkey", system-ui;
+  text-shadow: 0 0 2px black;
+}
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-bff{
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}
+
+#bday-age{
+  padding: 5px 10px;
+  background:#EFB0C9;
+  margin: 15px 0 0;
+  border-radius: 6px;
+}
+
+#bday-date{
+  background:#EFB0C9 ;
+  padding: 5px 10px;
+  margin: 8px 0 10px;
+  border-radius: 6px;
+}
+
+.gift-title{
+  margin: 40px 0 0 0;
+}
+
+.gift-hint{
+  margin: 10px 0 25px 0;
+}
+.gift-img{
+  width: 400px;
+  height: 400px;
+  background-image: url(images/gift-cover.jpg);
+  background-size: cover;
+  border: 8px solid #ffffff;
+  border-radius: 12px;
+  margin: 20px  auto;
+}
+
+#gift-img-happy:hover{
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmlpNThrbzE4YXp4cjMwMDFvbWFubjdobjk2ZXhxcGx0anZuc2xoZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/o75ajIFH0QnQC3nCeD/giphy.gif");
+}
+
+#gift-img-hot:hover{
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG50aWdsajczcjBpczF6Y2xkanowd2Vkem8wMnZjMjAzcTZ1ZHdmMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dwAAG0pKUV7AnnMY3u/giphy.gif");
+}
+#gift-img-genius{
+  height: 200px;
+}
+
+#gift-img-genius:hover{
+  background-image: url("https://media.giphy.com/media/LHPDqnbW6AXII/giphy.gif?cid=790b7611biqeqxwzgru8athfpy3a3xg3na3e14n3dvabedib&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img-badass:hover{
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzRpODd2dnN0ZTBzN2NrbG9jMW1tdTZvYnJkYTlqem4yMHZqcWZoYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ov9jWu7BuHufyLs7m/giphy.gif");
+}
+
+#gift-img-cherrs{
+  height: 200px;
+}
+
+#gift-img-cherrs:hover{  
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnY4bHNuNHk0YnZua3E2YTAxenFhamNuNmpuZThvZ3MzZGw1bXFkZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BPJmthQ3YRwD6QqcVD/giphy.gif");  
+}
+
+
+
+
+
